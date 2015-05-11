@@ -3,5 +3,9 @@
 /**
  * #SETTINGS
  */
+.region-user-first {
+  margin: 1px 0; }
+  .region-user-first li {
+    display: inline; }
 
 /*# sourceMappingURL=global.css.map */
