@@ -10,7 +10,3 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
-
-function avalon_school_page_alter($page) {
-    drupal_add_js(libraries_get_path('jquery.migrate') . '/jquery-migrate-1.2.1.min.js');
-}
