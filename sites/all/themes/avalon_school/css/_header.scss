@@ -65,5 +65,19 @@
 	display: none;
 }
 
-
+// headline text overrides
+#block-block-4 {
+	margin: 50px 0 150px;
+	h2 {
+		font-size: 45px;
+		line-height: 1.2;
+		color: #fff;
+	}
+	h3 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+		color: #fff;
+	}
+}
 
