@@ -4,10 +4,15 @@
 /**
  * #SETTINGS
  */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import "mixins/transitions";
 @import "mixins/translate";
 @import "mixins/rotate";
 @import "mixins/mq";
+@import "header";
+@import "block-main";
+@import "footer";
+@import "sections";
 
 @import "base";
 //@import "omega-visuals";

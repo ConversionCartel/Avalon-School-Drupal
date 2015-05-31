@@ -1,0 +1,88 @@
+// Kill this off for admin
+body.page-user, body.context-user {
+	#block-system-main {
+		margin-top: 0 !important;
+	}
+	#edit-submit {
+		display: block;
+	}
+}
+
+// not sure if this will affect globally?????
+#section-content {
+	background: #8dc63f url('http://avalonschool.dev/sites/default/files/Students_green.png') no-repeat bottom center / 100%;
+	padding-bottom: 100px;
+
+	#region-content .region-inner {
+		background-color: #fff;
+		margin-top: -100px;
+		padding: 25px 15px 0px;
+
+		td {
+			width: 33%;
+			text-align: center;
+			padding: 20px;
+			border-right: 1px solid #a6a5a4;
+			vertical-align: top;
+
+			&:last-child {
+				border-right: none;
+			}
+
+			.views-field-field-homepage-icon {
+				min-height: 68px;
+				margin-bottom: 20px;
+			}
+
+			.views-field-title {
+				min-height: 50px;
+				font-family: 'Montserrat', helvetica, sans-serif;
+				font-size: 16px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+
+			.views-field-body {
+				font-size: 16px;
+				font-weight: 300;
+				line-height: 1.6;
+			}
+			
+			// links below for individual section coloring	
+			a {
+				color: #FCB041;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline
+				}
+			}
+			&:first-child {
+				a {
+					color: #00aeef;
+				}
+			}
+			&:last-child {
+				a {
+					color: #8dc63f;
+				}
+			}
+		}
+	}
+}
+
+
+// this is the subheadline for under the main content 
+#block-block-2 {
+	text-align: center;
+	margin-top: 100px;
+
+	h3 {
+		color: #fff;
+		font-size: 30px;
+	}
+
+	p {
+		color: #fff;
+	}
+}
