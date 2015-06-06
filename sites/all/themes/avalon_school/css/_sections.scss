@@ -103,11 +103,10 @@ button {
 
 
 // quick link area for current students links
-#block-views-quick-links-block {
-	.view {
-		margin: 20px 0 50px;
-	}
-	.views-row {
+.view-quick-links {
+	margin: 20px 0 50px;
+
+    .views-row {
 		display: inline-block;
 		width: 33%;
 		text-align: center;

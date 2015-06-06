@@ -339,22 +339,22 @@ button {
     -ms-transition: all .3s;
     transition: all .3s; }
 
-#block-views-quick-links-block .view {
+.view-quick-links {
   margin: 20px 0 50px; }
-#block-views-quick-links-block .views-row {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-  margin-bottom: 40px; }
-  #block-views-quick-links-block .views-row a {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #524c45;
-    margin-top: 10px;
-    display: inline-block; }
-    #block-views-quick-links-block .views-row a:hover {
-      text-transform: underline; }
+  .view-quick-links .views-row {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 40px; }
+    .view-quick-links .views-row a {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #524c45;
+      margin-top: 10px;
+      display: inline-block; }
+      .view-quick-links .views-row a:hover {
+        text-transform: underline; }
 
 #block-system-main ul {
   margin-left: 20px; }
