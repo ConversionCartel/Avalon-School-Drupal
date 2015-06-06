@@ -2,6 +2,10 @@
 #zone-footer {
 	margin: 91px auto 80px;
 
+	@media (min-width: 20em) and (max-width: 46.25em) {
+		text-align: center;
+	}
+
 	h2 {
 		text-transform: uppercase;
 	}
@@ -76,9 +80,22 @@
 		}
 	}
 }
+#region-footer-first {
+	.logo-img {
+		@media (min-width: 20em) and (max-width: 46.26em) {
+			margin: 0 auto;
+			float: none;
+		}
+	}
+}
 #region-footer-second, #region-footer-third, #region-footer-fourth {
 	section {
 		margin-bottom: 35px;
+	}
+	ul.menu {
+		@media (min-width: 20em) and (max-width: 46.25em) {
+			text-align: center;
+		}
 	}
 	ul li {
 		list-style: none;

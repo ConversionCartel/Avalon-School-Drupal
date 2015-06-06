@@ -1,0 +1,62 @@
+// staff section should go below
+
+#block-views-meet-our-team-block {
+	.view-content {
+		margin-bottom: 40px;
+	}
+	.views-row {
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+		text-align: center;
+		margin-bottom: 30px;
+		-webkit-transition: transform .3s ease;
+		-moz-transition: transform .3s ease;
+		-ms-transition: transform .3s ease;
+		transition: transform .3s ease;
+
+		@media (min-width: 27em) {
+			width: 49%;
+		}
+
+		@media (min-width: 40em) {
+			width: 32%;
+		}
+
+		&:hover {
+			-webkit-transform: scale(1.05, 1.05);
+			-moz-transform: scale(1.05, 1.05);
+			-o-transform: scale(1.05, 1.05);
+			transform: scale(1.05, 1.05);
+			-webkit-transition: transform .3s ease;
+			-moz-transition: transform .3s ease;
+			-ms-transition: transform .3s ease;
+			transition: transform .3s ease;
+		}
+	}
+
+	a {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.views-field-field-teacher-image {
+		width: 149px;
+		height: 149px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		background-color: rgba(100,100,100,1.0);
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

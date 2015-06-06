@@ -25,6 +25,17 @@ body.page-user, body.context-user {
 			border-right: 1px solid #a6a5a4;
 			vertical-align: top;
 
+			@media (min-width: 20em) and (max-width: 48em) {
+				width: 100%;
+				display: block;
+				border-right: none;
+				border-bottom: 1px solid #a6a5a4;
+
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+
 			&:last-child {
 				border-right: none;
 			}
