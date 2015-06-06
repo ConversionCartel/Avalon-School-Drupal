@@ -97,6 +97,9 @@
   -ms-transition: all .3s ease;
   transition: all .3s ease; }
 
+.menu-donate {
+  display: none; }
+
 @media (min-width: 48em) {
   .sticky {
     position: fixed;
@@ -113,10 +116,20 @@
     transition: all .3s ease; }
     .sticky #region-menu a {
       color: #524c45; }
+      .sticky #region-menu a:hover {
+        color: #8dc63f; }
     .sticky .logo-img img {
       height: 40px; }
     .sticky #region-menu #main-menu li {
-      margin: 0; } }
+      margin: 0; }
+    .sticky .menu-donate {
+      display: inline-block;
+      padding: 10px;
+      background-color: #8dc63f;
+      border-radius: 6px;
+      color: #fff !important; }
+      .sticky .menu-donate:hover {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); } }
 body.page-user #block-system-main, body.context-user #block-system-main {
   margin-top: 0 !important; }
 body.page-user #edit-submit, body.context-user #edit-submit {

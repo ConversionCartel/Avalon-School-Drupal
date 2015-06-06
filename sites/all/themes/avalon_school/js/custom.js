@@ -18,4 +18,7 @@ stickyNav();
 jQuery(window).scroll(function() {
     stickyNav();
 });
+
+jQuery("#main-menu").append(" <li><a class='menu-donate' href='https://donatenow.networkforgood.org/avalonschool'>DONATE</a></li> ");
+
 });
