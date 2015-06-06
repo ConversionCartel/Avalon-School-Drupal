@@ -167,3 +167,19 @@ button {
 		}
 	}
 }
+
+// this is the subheadline in the Post-script section
+#region-postscript-first .block {
+    text-align: center;
+    margin-top: 100px;
+
+    h3 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    p {
+        color: #fff;
+        font-size: 18px;
+    }
+}

@@ -181,16 +181,6 @@ body.page-user #edit-submit, body.context-user #edit-submit {
       #section-content #region-content .region-inner td:last-child a {
         color: #8dc63f; }
 
-#block-block-2 {
-  text-align: center;
-  margin-top: 100px; }
-  #block-block-2 h3 {
-    color: #fff;
-    font-size: 30px; }
-  #block-block-2 p {
-    color: #fff;
-    font-size: 18px; }
-
 #zone-footer {
   margin: 91px auto 80px; }
   @media (min-width: 20em) and (max-width: 46.25em) {
@@ -386,9 +376,19 @@ button {
     -ms-transition: all .3s;
     transition: all .3s; }
 
-#block-views-meet-our-team-block .view-content {
+#region-postscript-first .block {
+  text-align: center;
+  margin-top: 100px; }
+  #region-postscript-first .block h3 {
+    color: #fff;
+    font-size: 30px; }
+  #region-postscript-first .block p {
+    color: #fff;
+    font-size: 18px; }
+
+#block-views-meet-our-team-block .content .view-content {
   margin-bottom: 40px; }
-#block-views-meet-our-team-block .views-row {
+#block-views-meet-our-team-block .content .views-row {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
@@ -399,12 +399,12 @@ button {
   -ms-transition: transform .3s ease;
   transition: transform .3s ease; }
   @media (min-width: 27em) {
-    #block-views-meet-our-team-block .views-row {
+    #block-views-meet-our-team-block .content .views-row {
       width: 49%; } }
   @media (min-width: 40em) {
-    #block-views-meet-our-team-block .views-row {
+    #block-views-meet-our-team-block .content .views-row {
       width: 32%; } }
-  #block-views-meet-our-team-block .views-row:hover {
+  #block-views-meet-our-team-block .content .views-row:hover {
     -webkit-transform: scale(1.05, 1.05);
     -moz-transform: scale(1.05, 1.05);
     -o-transform: scale(1.05, 1.05);
@@ -413,14 +413,14 @@ button {
     -moz-transition: transform .3s ease;
     -ms-transition: transform .3s ease;
     transition: transform .3s ease; }
-#block-views-meet-our-team-block a {
+#block-views-meet-our-team-block .content a {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase; }
-  #block-views-meet-our-team-block a:hover {
+  #block-views-meet-our-team-block .content a:hover {
     text-decoration: underline; }
-#block-views-meet-our-team-block .views-field-field-teacher-image {
+#block-views-meet-our-team-block .content .views-field-field-teacher-image {
   width: 149px;
   height: 149px;
   border-radius: 50%;
@@ -428,7 +428,7 @@ button {
   margin: 0 auto;
   margin-bottom: 10px;
   background-color: #646464; }
-  #block-views-meet-our-team-block .views-field-field-teacher-image img {
+  #block-views-meet-our-team-block .content .views-field-field-teacher-image img {
     width: 100%;
     height: auto; }
 
