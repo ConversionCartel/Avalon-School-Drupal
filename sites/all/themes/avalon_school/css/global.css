@@ -6,7 +6,7 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 #section-header {
   min-height: 450px;
-  background: rgba(0, 0, 0, 0.2) url("http://avalonschool.dev/sites/default/files/Home_Top_Bkd.jpg") no-repeat top center/cover;
+  background: rgba(0, 0, 0, 0.2) url("/sites/default/files/Home_Top_Bkd.jpg") no-repeat top center/cover;
   padding: 20px; }
   #section-header #zone-user {
     margin-bottom: 10px; }
@@ -26,8 +26,6 @@
     color: #fff;
     text-decoration: none;
     -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
     transition: all .3s; }
     #region-menu a:hover {
       color: #8dc63f; }
@@ -93,8 +91,6 @@
 
 #zone-menu-wrapper {
   -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
   transition: all .3s ease; }
 
 .menu-donate {
@@ -111,8 +107,6 @@
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
     z-index: 100;
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
     transition: all .3s ease; }
     .sticky #region-menu a {
       color: #524c45; }
@@ -136,7 +130,7 @@ body.page-user #edit-submit, body.context-user #edit-submit {
   display: block; }
 
 #section-content {
-  background: #8dc63f url("http://avalonschool.dev/sites/default/files/Students_green.png") no-repeat bottom center/100%;
+  background: #8dc63f url("/sites/default/files/Students_green.png") no-repeat bottom center/100%;
   padding-bottom: 100px; }
   #section-content #region-content .region-inner {
     background-color: #fff;
@@ -204,8 +198,6 @@ body.page-user #edit-submit, body.context-user #edit-submit {
       height: 0;
       background-color: #8dc63f;
       -webkit-transition: all .3s;
-      -moz-transition: all .3s;
-      -o-transition: all .3s;
       transition: all .3s; }
     #zone-footer a:hover {
       color: #8dc63f; }
@@ -319,14 +311,10 @@ button {
   text-shadow: none;
   color: #fff;
   -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
   transition: all .3s; }
   button:hover {
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
     -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
     transition: all .3s; }
 
 .view-quick-links {
@@ -366,14 +354,10 @@ button {
   text-shadow: none;
   color: #fff;
   -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
   transition: all .3s; }
   #block-system-main input[type=submit]:hover {
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
     -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
     transition: all .3s; }
 
 #region-postscript-first .block {
@@ -394,9 +378,7 @@ button {
   vertical-align: middle;
   text-align: center;
   margin-bottom: 30px;
-  -webkit-transition: transform .3s ease;
-  -moz-transition: transform .3s ease;
-  -ms-transition: transform .3s ease;
+  -webkit-transition: -webkit-transform .3s ease;
   transition: transform .3s ease; }
   @media (min-width: 27em) {
     #block-views-meet-our-team-block .content .views-row {
@@ -406,12 +388,9 @@ button {
       width: 32%; } }
   #block-views-meet-our-team-block .content .views-row:hover {
     -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(1.05, 1.05);
-    -o-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
-    -webkit-transition: transform .3s ease;
-    -moz-transition: transform .3s ease;
-    -ms-transition: transform .3s ease;
+    -ms-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+    -webkit-transition: -webkit-transform .3s ease;
     transition: transform .3s ease; }
 #block-views-meet-our-team-block .content a {
   font-family: 'Montserrat', sans-serif;
