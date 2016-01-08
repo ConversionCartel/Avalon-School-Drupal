@@ -136,7 +136,8 @@ button {
 	}
 	input {
 		border-color: #848484;
-		padding: 15px 5px;
+		height: auto;
+		padding: 7px 5px;
 		max-width: 100%;
 		&:focus {
 			outline: none;

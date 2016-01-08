@@ -338,7 +338,8 @@ button {
   margin-left: 20px; }
 #block-system-main input {
   border-color: #848484;
-  padding: 15px 5px;
+  height: auto;
+  padding: 7px 5px;
   max-width: 100%; }
   #block-system-main input:focus {
     outline: none;
