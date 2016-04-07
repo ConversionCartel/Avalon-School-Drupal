@@ -295,7 +295,7 @@ body.page-user #edit-submit, body.context-user #edit-submit {
       list-style: none;
       margin: 5px 0;
       position: relative; }
-      #region-sidebar-first .menu li.active:before {
+      #region-sidebar-first .menu li.active-trail:before {
         content: '';
         position: absolute;
         top: 0;
