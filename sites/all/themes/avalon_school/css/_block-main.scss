@@ -15,8 +15,12 @@ body.page-user, body.context-user {
 
 	#region-content .region-inner {
 		background-color: #fff;
-		margin-top: -100px;
+		margin-top: 0px;
 		padding: 25px 15px 0px;
+
+		@media(min-width: 46.25em) { //740px
+			margin-top: -100px;
+		}
 
 		td {
 			width: 33%;
@@ -58,8 +62,8 @@ body.page-user, body.context-user {
 				font-weight: 300;
 				line-height: 1.6;
 			}
-			
-			// links below for individual section coloring	
+
+			// links below for individual section coloring
 			a {
 				color: #FCB041;
 				text-decoration: none;
